@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42489DED27B1C1AD00E39A19 /* CatRender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42489DEC27B1C1AC00E39A19 /* CatRender.swift */; };
 		42F13DEA27B17207009BEEFE /* CatAwardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F13DE927B17207009BEEFE /* CatAwardApp.swift */; };
 		42F13DEC27B17207009BEEFE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F13DEB27B17207009BEEFE /* ContentView.swift */; };
 		42F13DEE27B17208009BEEFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42F13DED27B17208009BEEFE /* Assets.xcassets */; };
 		42F13DF127B17208009BEEFE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42F13DF027B17208009BEEFE /* Preview Assets.xcassets */; };
+		42F13DF827B17234009BEEFE /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F13DF727B17234009BEEFE /* Cat.swift */; };
+		42F13DFA27B17E85009BEEFE /* CatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F13DF927B17E85009BEEFE /* CatModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		42489DEC27B1C1AC00E39A19 /* CatRender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatRender.swift; sourceTree = "<group>"; };
 		42F13DE627B17207009BEEFE /* CatAward.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatAward.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42F13DE927B17207009BEEFE /* CatAwardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatAwardApp.swift; sourceTree = "<group>"; };
 		42F13DEB27B17207009BEEFE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		42F13DED27B17208009BEEFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42F13DF027B17208009BEEFE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		42F13DF727B17234009BEEFE /* Cat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
+		42F13DF927B17E85009BEEFE /* CatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				42F13DE927B17207009BEEFE /* CatAwardApp.swift */,
 				42F13DEB27B17207009BEEFE /* ContentView.swift */,
+				42F13DF727B17234009BEEFE /* Cat.swift */,
+				42F13DF927B17E85009BEEFE /* CatModel.swift */,
+				42489DEC27B1C1AC00E39A19 /* CatRender.swift */,
 				42F13DED27B17208009BEEFE /* Assets.xcassets */,
 				42F13DEF27B17208009BEEFE /* Preview Content */,
 			);
@@ -139,6 +148,9 @@
 			files = (
 				42F13DEC27B17207009BEEFE /* ContentView.swift in Sources */,
 				42F13DEA27B17207009BEEFE /* CatAwardApp.swift in Sources */,
+				42F13DFA27B17E85009BEEFE /* CatModel.swift in Sources */,
+				42489DED27B1C1AD00E39A19 /* CatRender.swift in Sources */,
+				42F13DF827B17234009BEEFE /* Cat.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
